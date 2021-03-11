@@ -2,13 +2,9 @@
 
 ## Objective
 
----
-
 Build an ETL pipeline for a data lake of Sparkify's users activity from several **large** sources. This ETL pipeline processes data from S3 into analytics tables and loads them back into another S3 bucket.
 
 ## Implementation
-
----
 
 ### ETL pipeline
 
@@ -53,8 +49,6 @@ The tables were loaded into another S3 bucket in `parquet` file format. This in 
 - `test.ipynb`: iPython notebook that can be used to load data and make queries on the loaded data.
 
 ## Instructions
-
----
 
 1. Run `etl.py` to create database and tables
 
